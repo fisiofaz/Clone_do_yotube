@@ -1,0 +1,86 @@
+.watchingVideo {
+    display: flex;
+    flex-direction: column;
+    width: 95.2rem;
+}
+.watchingVideo img {
+    width: 95.2rem;
+    height: 53.2rem;
+}
+
+.watchingVideo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 2.344rem;
+    margin-top: 1.5rem;
+}
+
+.watchingVideo_videoActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.watchingVideo_videoActions-Infos, .watchingVideo_videoActions-Like, .watchingVideo_videoActions-Deslike, .watchingVideo_videoActions-Share, .watchingVideo_videoActions-Download {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.watchingVideo_videoActions-Infos img {
+   width: 4.2rem;
+   height: 4.2rem;
+   border-radius: 50%;
+}
+
+.watchingVideo_videoActions-Infos .watchingVideo_videoActions-Infos-Nome, .watchingVideo_videoActions-Infos .watchingVideo_videoActions-Infos-Infos {
+    font-size: 1.4rem;
+    line-height: 1.641rem;  
+}
+
+.watchingVideo_videoActions-Infos .watchingVideo_videoActions-Infos-Nome {
+     font-weight: 600;
+}
+
+.watchingVideo_videoActions .btn {
+    background-color: var(--color-button);
+    color: var(--color-bt);
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.641rem;
+    cursor: pointer;
+    width: 15.9rem;
+    height: 4rem;
+}
+
+.watchingVideo_videoActions .watchingVideo_videoActions-Like, .watchingVideo_videoActions .watchingVideo_videoActions-Deslike, .watchingVideo_videoActions .watchingVideo_videoActions-Share, .watchingVideo_videoActions .watchingVideo_videoActions-Download {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.watchingVideo_videoActions .watchingVideo_videoActions-Like img, .watchingVideo_videoActions .watchingVideo_videoActions-Deslike img, .watchingVideo_videoActions .watchingVideo_videoActions-Share img, .watchingVideo_videoActions .watchingVideo_videoActions-Download img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.watchingVideo span, .watchingVideo p  {    
+   font-size: 1.4rem;
+   line-height: 1.641rem; 
+   margin-top: 2rem;
+}
+
+.watchingVideo span {
+    font-weight: 600; 
+}
+
+.watchingVideo .watchingVideo_description p {
+    font-weight: 400;
+    color: var(--color-textsec);
+    width: 51rem;
+    height: 6.4rem;
+}

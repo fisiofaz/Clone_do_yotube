@@ -10,8 +10,22 @@
 
   :root {
     font-size: 62.5%;
-   
+    --color-textprim: #000000;
+    --color-button: #CC0000;
+    --color-bt: #ffffff;
+    --color-textsec: #515151;
+    --color-bd: #cccccc;
+    --color-bg: #F9F9F9;
   }  
   body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-textprim);
+    font-size: 16px;
+    margin: 0;
+    width: 144rem;
+    height: 102.4rem
   }

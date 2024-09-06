@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    color: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 2rem .5rem 2rem 1.5rem;
+    color: var(--color-bt);
+    background-color: var(--color-bt);
+    width: 144rem;
   }
 
   .menu_left {
@@ -30,8 +29,8 @@
   }
 
   .menu_center-ratangulo, .menu_center-lupa {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
+    background-color: var(--color-bt);
+    border: 1px solid var(--color-bd);
   }
   .menu_center-ratangulo {    
     width: 35rem;

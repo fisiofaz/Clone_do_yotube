@@ -1,3 +1,5 @@
 @import url(./src/css/reset.css);
 @import url(./src/css/menu.css);
-
+@import url(./src/css/watching.css);
+@import url(./src/css/watchingVideo.css);
+@import url(./src/css/watchingSidebar.css);
