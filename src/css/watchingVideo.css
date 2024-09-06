@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 95.2rem;
+    position: relative;
+    top: -9.5rem;
 }
 .watchingVideo img {
     width: 95.2rem;
@@ -19,7 +21,9 @@
 .watchingVideo_videoActions {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    width: 90.2rem;
+    height: 4.2rem;
 }
 
 .watchingVideo_videoActions-Infos, .watchingVideo_videoActions-Like, .watchingVideo_videoActions-Deslike, .watchingVideo_videoActions-Share, .watchingVideo_videoActions-Download {
@@ -71,16 +75,16 @@
 .watchingVideo span, .watchingVideo p  {    
    font-size: 1.4rem;
    line-height: 1.641rem; 
-   margin-top: 2rem;
 }
 
 .watchingVideo span {
     font-weight: 600; 
 }
 
-.watchingVideo .watchingVideo_description p {
+.watchingVideo_description p {
     font-weight: 400;
     color: var(--color-textsec);
     width: 51rem;
     height: 6.4rem;
+    margin-top: 1.5rem;
 }
